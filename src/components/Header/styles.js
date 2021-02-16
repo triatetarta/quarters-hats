@@ -7,4 +7,14 @@ export const HeaderWrapper = styled.header`
   padding: 10px 20px;
   box-sizing: border-box;
   flex-wrap: wrap;
+
+  > div {
+    margin: auto 0;
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  }
 `;
