@@ -8,8 +8,11 @@ export function ProductsGrid({ products }) {
       {products.map(product => (
         <ProductTile
           key={product.shopifyId}
+          description={product.description}
+          minPrice={product.priceRange.minVariantPrice.amount}
           title={product.title}
           imageFluid={product.images[0].localFile.childImageSharp.fluid}
+          handle={product.handle}
         />
       ))}
     </ProductsGridWrapper>

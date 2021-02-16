@@ -20,6 +20,12 @@ const query = graphql`
           }
           products {
             ...ShopifyProductFields
+            handle
+            priceRange {
+              minVariantPrice {
+                amount
+              }
+            }
           }
         }
       }
