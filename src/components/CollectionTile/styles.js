@@ -23,7 +23,6 @@ export const CollectionTileContent = styled.div`
   height: 100%;
   color: white;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.5);
   text-align: center;
 
   > div {
@@ -31,40 +30,19 @@ export const CollectionTileContent = styled.div`
 
     ${StyledLink} {
       padding: 10px;
-      background: white;
-      border: 1px solid black;
+      background: transparent;
+      border: none;
       font-weight: bold;
       font-size: 16px;
       text-transform: uppercase;
       text-decoration: none;
       display: inline-block;
-      color: black;
       cursor: pointer;
-
-      &:hover {
-        color: white;
-        background: black;
-      }
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
     }
   }
-`;
-
-export const Title = styled.div`
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-  border-radius: 10px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
-  background: ${props => (props.sale ? 'red' : 'none')};
-`;
-
-export const Description = styled.div`
-  font-size: 20px;
-  margin: 10px;
-  border-radius: 10px;
-  background: ${props => (props.sale ? 'red' : 'none')};
-  padding: 10px;
 `;
