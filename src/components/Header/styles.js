@@ -10,11 +10,5 @@ export const HeaderWrapper = styled.header`
 
   > div {
     margin: auto 0;
-    a {
-      font-size: 20px;
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-    }
   }
 `;
