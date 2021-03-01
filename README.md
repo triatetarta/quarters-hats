@@ -1,4 +1,22 @@
-# Gatsby Shopify starter
+# Shopify Store
+
+A Gatsby website for **Quarter Hats**.
+It includes:
+
+- Shopify
+- Gatsby
+- Styled Components
+- SEO Optimization
+- Netlify
+- Github
+
+## View Quarter Hats website:
+
+https://quarter-hats.netlify.app/
+
+### View Three Quarters website:
+
+https://www.threequarters.dev/
 
 **Getting started**
 
